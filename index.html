@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    Главная страница
-    <header class="header">
-        <img src="images/logo.PNG" alt="Логотип" width="200" height="200">
-        <h1 class="h1">LangBridge</h1>
-    </header>
-    <main class="main">
-        <button></button>
+    
+    <header class="header container">
+        <div class="header__buttons">
+            <button>Главная страница</button>
         <button>Запись на пробное</button>
-        <div >
-            <p><a href="#">Главная</a></p>
-            <a href="login.html">Вход/Регистрация</a>
         </div>
+        <a class="header__logo-wrap" href="index.html">
+            <img src="images/logo.PNG" alt="Логотип" width="200" height="200">
+            <h1 class="h1">LangBridge</h1>
+            </a>
+        <div class="header__buttons">
+            <button>Вход</button>
+        <button>Регистрация</button>
+        </div>
+    </header>
+    <main class="main container">
         <div class="about-us">
             <h2>Почему наша школа?</h2>
             <p> Наши ученики не просто учат грамматику, но также знакомятся с культурой и традициями от носителей языка!</p>
             <img src="images/happy children.png" alt="Почему наша школа?" width="400" height="200">
         </div> 
-        <ul class="menu">
+        <ul class="menu container">
              <li class="menu__item">Каталог языка</li>
              <li><a href="#">Английский</a></li>
              <li><a href="#">Китайский</a></li>
@@ -35,8 +39,8 @@
              <li><a href="#">Французский</a></li>
          </ul>
     </main>
-    <footer class="footer">
-        <p>Умарова Замира ЛВ-42</p>
+    <footer class="footer container">
+        <p>Умарова Замира, Анциферова Алёна, Новикова Анна ЛВ-42</p>
     </footer>
 </body>
 </html>
