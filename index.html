@@ -15,12 +15,11 @@
         <button>Запись на пробное</button>
         </div>
         <a class="header__logo-wrap" href="index.html">
-            <img src="images/logo.PNG" alt="Логотип" width="200" height="200">
-            <h1 class="h1">LangBridge</h1>
+            <img class="header__logo" src="images/logo.PNG" alt="Логотип" width="200" height="200">
+            <h1 class="header__title">LangBridge</h1>
             </a>
-        <div class="header__buttons">
-            <button>Вход</button>
-        <button>Регистрация</button>
+        <a class="header__button" href="login.html"><button>Вход</button></a>
+        <a class="header__button" href="login.html"><button>Регистрация</button></a>
         </div>
     </header>
     <main class="main container">
@@ -29,15 +28,19 @@
             <p> Наши ученики не просто учат грамматику, но также знакомятся с культурой и традициями от носителей языка!</p>
             <img src="images/happy children.png" alt="Почему наша школа?" width="400" height="200">
         </div> 
-        <ul class="menu container">
-             <li class="menu__item">Каталог языка</li>
-             <li><a href="#">Английский</a></li>
-             <li><a href="#">Китайский</a></li>
-             <li><a href="#">Корейский</a></li>
-             <li><a href="#">Японский</a></li>
-             <li><a href="#">Шведский</a></li>
-             <li><a href="#">Французский</a></li>
+        <nav class="menu container">
+            <ul class="menu">
+             <a class="catalogue">Каталог языка</a>
+             <li class="menu__item">
+                <a class="menu__link" href="#">Английский</a>
+            </li>
+             <li class="menu__link"><a href="#">Китайский</a></li>
+             <li class="menu__link"><a href="#">Корейский</a></li>
+             <li class="menu__link"><a href="#">Японский</a></li>
+             <li class="menu__link"><a href="#">Шведский</a></li>
+             <li class="menu__link"><a href="#">Французский</a></li>
          </ul>
+        </nav>
     </main>
     <footer class="footer container">
         <p>Умарова Замира, Анциферова Алёна, Новикова Анна ЛВ-42</p>
